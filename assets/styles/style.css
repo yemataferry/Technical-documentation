@@ -31,8 +31,8 @@ main {
   display: flex;
   text-align: left;
   flex-direction: column;
-  font-size: 17px;
-  font-family: "OpenSans Arial sans-serif";
+  font-size: 16px;
+  font-family: sans-serif;
   padding-right: 10px;
   line-height: 35px;
   color: #4d4e53;
@@ -45,14 +45,14 @@ main {
   top: 0;
   left: 0;
   border-right: 3px solid gray;
-  font-family: "OpenSans Arial sans-serif";
+  font-family: sans-serif;
   color: #4d4e53;
   width: 21vw;
 }
 
 .scroll {
   overflow: scroll;
-  height: 87vh;
+  height: 89vh;
   width: 100%;
   border-top: 1px solid black;
 }
@@ -64,6 +64,8 @@ header {
   width: fit-content;
   padding-top: 20px;
   padding-bottom: 25px;
+  font-weight: 300;
+  color: black;
 }
 
 .line {
@@ -73,11 +75,12 @@ header {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding-left: 9%;
-  font-size: 18px;
+  padding-left: 8%;
+  font-size: 16px;
+  font-weight: 100;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: "OpenSans Arial sans-serif";
+  font-family: sans-serif;
   color: #4d4e53;
 }
 
@@ -88,4 +91,9 @@ a {
 
 li {
   padding-left: 40px;
+}
+
+h2 {
+  color: black;
+  
 }
